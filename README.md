@@ -6,7 +6,7 @@ Github Action to build and publish a Docker image to Amazon ECR.
 
 ```bash
 - name: Checkout repo
-  uses: actions/checkout@v3
+  uses: actions/checkout@v4
 
 - name: Build artifact
   run: |
